@@ -1,0 +1,19 @@
+{
+  "name": "simple-tabs-component",
+  "version": "1.0.0",
+  "description": "simple tabs component exercise",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ballySingh/simple-tabs-component.git"
+  },
+  "author": "Baljinder Randhawa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ballySingh/simple-tabs-component/issues"
+  },
+  "homepage": "https://github.com/ballySingh/simple-tabs-component#readme"
+}
