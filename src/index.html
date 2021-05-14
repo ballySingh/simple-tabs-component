@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="./scripts/main.js"></script>
+    <link rel="stylesheet" type="text/css" href="./assets/styles/styles.css" />
+    <noscript>
+      <link
+        rel="stylesheet"
+        type="text/css"
+        href="./assets/styles/non-js-styles.css"
+      />
+    </noscript>
+    <title>Simple Tabs Component</title>
+  </head>
+  <body>
+    <div class="row">
+      <div class="col-4"></div>
+      <div class="col-4">
+        <div class="tabs">
+          <div role="tablist" aria-label="Sample Tabs">
+            <button
+              role="tab"
+              aria-selected="true"
+              aria-controls="panel-1"
+              id="tab-1"
+              tabindex="0"
+            >
+              Football
+            </button>
+            <button
+              role="tab"
+              aria-selected="false"
+              aria-controls="panel-2"
+              id="tab-2"
+              tabindex="0"
+            >
+              Tennis
+            </button>
+            <button
+              role="tab"
+              aria-selected="false"
+              aria-controls="panel-3"
+              id="tab-3"
+              tabindex="0"
+            >
+              Cricket
+            </button>
+          </div>
+          <div
+            id="panel-1"
+            role="tabpanel"
+            tabindex="0"
+            aria-labelledby="tab-1"
+          >
+            <div class="row">
+              <div class="col-3">
+                <div class="img-wrap">
+                  <img
+                    src="assets/images/football.svg"
+                    alt="football on grass"
+                  />
+                </div>
+              </div>
+              <div class="col-9">
+                <h2>Football:</h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+                  hendrerit, quam quis imperdiet fermentum, tortor dolor cursus
+                  leo, vel gravida urna lectus vitae quam. Duis mattis arcu sit
+                  amet varius ornare. Maecenas vel fringilla quam. Duis quis
+                  dignissim massa. Duis congue malesuada justo, eu pellentesque
+                  arcu molestie ut. Suspendisse sed dolor in nibh tristique
+                  laoreet. Aenean vel iaculis augue. Maecenas luctus ante nisi,
+                  at eleifend orci vulputate facilisis. Aliquam leo mi, porta et
+                  orci eget, bibendum volutpat velit. Pellentesque a neque in
+                  nulla tempor pulvinar.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            id="panel-2"
+            role="tabpanel"
+            tabindex="0"
+            aria-labelledby="tab-2"
+            class="hide"
+          >
+            <div class="row">
+              <div class="col-3">
+                <div class="img-wrap">
+                  <img
+                    src="assets/images/tennis.svg"
+                    alt="tennis racket and ball"
+                  />
+                </div>
+              </div>
+              <div class="col-9">
+                <h2>Tennis:</h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+                  hendrerit, quam quis imperdiet fermentum, tortor dolor cursus
+                  leo, vel gravida urna lectus vitae quam. Duis mattis arcu sit
+                  amet varius ornare. Maecenas vel fringilla quam. Duis quis
+                  dignissim massa. Duis congue malesuada justo, eu pellentesque
+                  arcu molestie ut. Suspendisse sed dolor in nibh tristique
+                  laoreet. Aenean vel iaculis augue. Maecenas luctus ante nisi,
+                  at eleifend orci vulputate facilisis. Aliquam leo mi, porta et
+                  orci eget, bibendum volutpat velit. Pellentesque a neque in
+                  nulla tempor pulvinar.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            id="panel-3"
+            role="tabpanel"
+            tabindex="0"
+            aria-labelledby="tab-3"
+            class="hide"
+          >
+            <div class="row">
+              <div class="col-3">
+                <div class="img-wrap">
+                  <img src="assets/images/cricket.svg" alt="Cricket ball" />
+                </div>
+              </div>
+              <div class="col-9">
+                <h2>Cricket:</h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+                  hendrerit, quam quis imperdiet fermentum, tortor dolor cursus
+                  leo, vel gravida urna lectus vitae quam. Duis mattis arcu sit
+                  amet varius ornare. Maecenas vel fringilla quam. Duis quis
+                  dignissim massa. Duis congue malesuada justo, eu pellentesque
+                  arcu molestie ut. Suspendisse sed dolor in nibh tristique
+                  laoreet. Aenean vel iaculis augue. Maecenas luctus ante nisi,
+                  at eleifend orci vulputate facilisis. Aliquam leo mi, porta et
+                  orci eget, bibendum volutpat velit. Pellentesque a neque in
+                  nulla tempor pulvinar.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-4"></div>
+    </div>
+  </body>
+</html>

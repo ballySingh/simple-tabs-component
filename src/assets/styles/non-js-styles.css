@@ -1,0 +1,7 @@
+.hide {
+  display: block;
+}
+
+[role='tablist'] {
+  display: none;
+}
