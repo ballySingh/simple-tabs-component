@@ -4,7 +4,7 @@
   "description": "simple tabs component exercise",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "karma start --single-run --browsers ChromeHeadless karma.config.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,17 @@
   "bugs": {
     "url": "https://github.com/ballySingh/simple-tabs-component/issues"
   },
-  "homepage": "https://github.com/ballySingh/simple-tabs-component#readme"
+  "homepage": "https://github.com/ballySingh/simple-tabs-component#readme",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "karma": "^6.3.2",
+    "karma-chai": "^0.1.0",
+    "karma-chrome-launcher": "^3.1.0",
+    "karma-firefox-launcher": "^2.1.0",
+    "karma-ie-launcher": "^1.0.0",
+    "karma-mocha": "^2.0.1",
+    "karma-sinon": "^1.0.5",
+    "mocha": "^8.4.0",
+    "sinon": "^10.0.0"
+  }
 }
